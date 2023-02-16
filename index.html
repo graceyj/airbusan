@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no, address=no, email=no">
+		<meta name="Keywords" content="항공권 예약, 운임안내, 스케줄, 한국(부산,서울,제주), 세부, 홍콩, 대만, 괌 등 운항노선 안내, AIR BUSAN, air busan, airbusan, 에어부산, 부산항공">
+		<meta name="Description" content="항공권 예약, 예약 조회, 스케줄 및 운임안내, 국내/국제선 특가 항공권, 부가서비스">
+		<title> airbusan - 에어부산 </title>
+		<link rel="stylesheet" type="text/css" href="css/airbusan_style.css">
+	</head>
+	<body>
+		<header id="main_header">
+			<div class="head_wrap">
+				<div class="top_head">
+					<!--패밀리 사이트-->
+					<div class="fam_site">
+						<a href="#" class="indi">
+							<span class="icon individual"></span>개인
+						</a>
+						<ul class="fam_sl">
+							<li>
+								<a href="#" class="busi">
+									<span class="icon business"></span>기업
+								</a>
+							</li>
+							<li>
+								<a href="#" class="trav">
+									<span class="icon travel"></span>여행사
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!--//패밀리 사이트-->
+				</div>
+				<div class="main_head">
+					<!--메인 로고-->
+					<h1 class="logo">
+					<a href="#"><img src="img/h_logo.png" alt="AIR BUSAN"></a>
+					</h1>
+					<!--//메인 로고-->
+					<!--텍스트 메인메뉴-->
+					<nav class="gnb">
+                        <div class="menu_wrap">
+                            <ul>
+                                <li>
+                                    <a href="#">항공권 예약</a>
+                                    <div class="sub reseve">
+                                        <ul>
+                                            <li><a href="#">항공권예매</a></li>
+                                            <li>
+                                                <a href="#">특별예매</a>
+                                                <ul>
+                                                    <li><a href="#">단체예매</a></li>
+                                                    <li><a href="#">선물항공권</a></li>
+                                                    <li><a href="#">부산-김포정기권</a></li>
+                                                    <li><a href="#">전세기서비스</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">항공운임안내</a>
+                                                <ul>
+                                                    <li><a href="#">국내선</a></li>
+                                                    <li><a href="#">국제선</a></li>
+                                                    <li><a href="#">항공권환불</a></li>
+                                                    <li><a href="#">항공권변경및재발행</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">운항정보</a>
+                                                <ul>
+                                                    <li><a href="#">스케줄조회</a></li>
+                                                    <li><a href="#">취항노선</a></li>
+                                                    <li><a href="#">실시간출도착</a></li>
+                                                    <li><a href="#">항공기소개</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">최저가항공권</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">공항</a>
+                                    <div class="sub airport">
+                                        <ul>
+                                            <li>
+                                                <a href="#">수하물</a>
+                                                <ul>
+                                                    <li><a href="#">무료수하물</a></li>
+                                                    <li><a href="#">초과수하물</a></li>
+                                                    <li><a href="#">특수수하물</a></li>
+                                                    <li><a href="#">운송제한물품</a></li>
+                                                    <li><a href="#">유실물안내</a></li>
+                                                    <li><a href="#">수하물배상</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">체크인</a>
+                                                <ul>
+                                                    <li><a href="#">탑승수속</a></li>
+                                                    <li><a href="#">홈페이지/모바일탑승권</a></li>
+                                                    <li><a href="#">취항지공항및카운터정보</a></li>
+                                                    <li><a href="#">출입국신고서</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">제휴서비스</a>
+                                                <ul>
+                                                    <li><a href="#">호텔</a></li>
+                                                    <li><a href="#">렌터카</a></li>
+                                                    <li><a href="#">와이파이</a></li>
+                                                    <li><a href="#">여행자보험</a></li>
+                                                    <li><a href="#">제휴카드</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">FLY&amp;FUN</a>
+                                                <ul>
+                                                    <li><a href="#">국제선</a></li>
+                                                    <li><a href="#">국내선</a></li>
+                                                    <li><a href="#">이벤트</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">기내</a>
+                                    <div class="sub cabin">
+                                        <ul>
+                                            <li>
+                                                <a href="#">도움필요승객</a>
+                                                <ul>
+                                                    <li><a href="#">임산부/유아동반승객</a></li>
+                                                    <li><a href="#">반려동물동반승객</a></li>
+                                                    <li><a href="#">몸이불편한승객</a></li>
+                                                    <li><a href="#">혼자여행하는어린이</a></li>
+                                                    <li><a href="#">투게더서비스</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">기내서비스</a>
+                                                <ul>
+                                                    <li><a href="#">기내서비스</a></li>
+                                                    <li><a href="#">기내면세품</a></li>
+                                                    <li><a href="#">AIRBUSAN MALL</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">부가서비스</a>
+                                                <ul>
+                                                    <li><a href="#">번들</a></li>
+                                                    <li><a href="#">수하물</a></li>
+                                                    <li><a href="#">좌석</a></li>
+                                                    <li><a href="#">라운지</a></li>
+                                                    <li><a href="#">기내식</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">하늘책방(e-book서비스)</a></li>
+                                            <li><a href="#">SHOP AIRBUSAN</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">마이페이지</a>
+                                    <div class="sub mypage">
+                                        <ul>
+                                            <li><a href="#">회원정보</a></li>
+                                            <li><a href="#">나의예약조회</a></li>
+                                            <li>
+                                                <a href="#">스탬프</a>
+                                                <ul>
+                                                    <li><a href="#">FLY&amp;STAMP안내</a></li>
+                                                    <li><a href="#">STAMP구매/환불</a></li>
+                                                    <li><a href="#">STAMP양도</a></li>
+                                                    <li><a href="#">STAMP적립</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+					<!--//텍스트 메인메뉴-->
+					<!--아이콘 메인메뉴-->
+					<nav class="tnb">
+						<!--언어설정-->
+						<div class="global">
+							<a href="#" class="">language</a>
+							<div class="lang">
+								<ul>
+									<li><a href="#">한국어</a></li>
+									<li><a href="#">ENGLISH</a></li>
+									<li><a href="#">日本語</a></li>
+									<li><a href="#">繁體中文</a></li>
+									<li><a href="#">简体中文</a></li>
+									<li><a href="#">русский</a></li>
+									<li><a href="#">tiếng Việt</a></li>
+								</ul>
+							</div>
+						</div>
+						<!--//언어설정-->
+						<!--검색-->
+						<div class="search">
+							<a class="btn_search" href="#">검색</a>
+							<div class="layer_search">
+								<form action="#" method="get">
+									<input class="keywordsearch" id="gnbkeywordsearch" name="keyword" type="text" placeholder="검색어를 입력하세요." title="검색어를 입력하세요.">
+									<button class="btn_totalSearch" type="submit">검색</button>
+									<a class="btn_search_close" href="#">닫기</a>
+								</form>
+							</div>
+						</div>
+						<!--//검색-->
+						<!--로그인-->
+							<a class="btn_login" href="#">로그인 하기</a>
+						<!--//로그인-->
+						<!--전체메뉴(사이트맵)-->
+							<a class="btn_allmenu" href="#">전체메뉴</a>
+						<!--//전체메뉴(사이트맵)-->
+					</nav>
+					<!--//아이콘 메인메뉴-->
+				</div>
+			</div>
+		</header>
+		<main id="main_visual">
+			<section class="main_slide">
+				<!--슬라이드 배너-->
+				<div class="slides">
+					<div class="slide1">
+						<a href="#"><img src="img/airbusan_banner_01.jpg" alt="인천-칭다오 신규취항"></a>
+					</div>
+					<div class="slide2">
+						<a href="#"><img src="img/airbusan_banner_02.jpg" alt="국제선 이용고객 면세혜택"></a>
+					</div>
+					<div class="slide3">
+						<a href="#"><img src="img/airbusan_banner_03.jpg" alt="일본 전노선 혜택 FLEX"></a>
+					</div>
+					<div class="slide4">
+						<a href="#"><img src="img/airbusan_banner_04.jpg" alt="방콕 뚝뚝 특가"></a>
+					</div>
+					<div class="slide5">
+						<a href="#"><img src="img/airbusan_banner_05.jpg" alt="기내식 최대 20% 할인"></a>
+					</div>
+					<div class="slide6">
+						<a href="#"><img src="img/airbusan_banner_06.jpg" alt="짱구가 에어부산 파일럿이 되었어요!"></a>
+					</div>
+					<div class="slide7">
+						<a href="#"><img src="img/airbusanbanner_01.jpg" alt="에어부산과 블랙펜서가 함께하는 BIC4경품이벤트"></a>
+					</div>
+				</div>
+				<!--//슬라이드 배너-->
+				<!--항공예약바-->
+				<div class="main_booking">
+					<div class="booking_wrap">
+						<div class="booking_background">
+							<img src="img/booking_bar_group.jpg" alt="">
+						</div>
+						<form action="#" method="post">
+							<fieldset>
+								<legend>에어부산 항공예약</legend>
+								<div class="booking_top">
+									<!--여정타입:왕복/편도/다구간-->
+									<div class="radio_box">
+										<input type="radio" id="triptype_rt"  name="triptype" value="rt" checked="checked"><label for="triptype_RT">왕복</label>&nbsp;
+										<input type="radio" id="triptype_ow" name="triptype" value="ow"><label for="triptype_OW">편도</label>&nbsp;
+										<input type="radio" id="tripType_mc" name="triptype" value="mc"><label for="tripType_MC">다구간</label>&nbsp;
+									</div>
+									<!--//여정타입:왕복/편도/다구간-->
+									<!--할인코드-->
+									<div class="salecode_wrap">
+										<span class="sale_code">
+											<input class="input_sale" id="sale_code" maxlength="20" name="promoCode" type="text" placeholder="할인코드 입력" title="할인코드 입력" value="">
+										</span>
+										<a class="btn_tool" href="#">
+											<span class="blind">할인코드 안내</span>
+											<div class="tool_info">
+												<div class="tool_info_txt">
+													<h4>할인코드란?</h4>
+												</div>
+												<div class="toolinfo_cont">
+													<p>에어부산 탑승객 대상: 추가 할인 제공<br>
+													예약시 사전에 안내된 코드를 입력하시면<br>
+													할인가격이 적용된 항공편을 이용하실 수 있습니다.</p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<!--//할인코드-->
+									<!--단체(10명이상) 선택-->
+									<div class="bookingtype_box">
+											<input class="bookingtypegroup" id="group" name="bookingtype" type="checkbox" value="">
+											<label for="group"><span class="icon">단체 항공권 선택 체크박스</span>단체(10명 이상)</label>
+									</div>
+									<!--//단체(10명이상) 선택-->
+								</div>
+								<div class="booking_btm">
+									<!--출발지 선택-->
+									<div class="start_wrap inquiry">
+										<input class="booking_start1" onblur="checkAirportPinStatus(this, 0);" onclick="gnbSelectAirport(this, 0,'search','main');" onkeypress="gnbSelectAirport(this, 0,'search','main');" readonly="" title="출발지 입력" type="text" value="" placeholder="출발지">
+										<a class="booking_start2" href="#none" onclick="gnbSelectAirport($(this).parent().find('input'), 0, 'region','main');" title="출발지 선택 레이어 열림">출발지 선택</a>
+										<!--선택지 레이어 -->
+										<div class="selected_area start">
+											<a href="#" onclick="gnbSelectAirport($(this).parent().parent().find('input'), 0,'search','main');">
+												<span class="en">ICN</span>
+												<span class="area">서울/인천</span>
+											</a>
+										</div>
+										<!--//선택지 레이어 -->
+									</div>
+									<!--//출발지 선택-->
+									<!--도착지 선택-->
+									<div class="end_wrap inquiry">
+										<input class="booking_end1" onblur="checkAirportPinStatus(this, 0);" onclick="gnbSelectAirport(this, 0,'search','main');" onkeypress="gnbSelectAirport(this, 0,'search','main');" readonly="" title="도착지 입력" type="text" value="" placeholder="도착지">
+										<a class="booking_end2" href="#none" onclick="gnbSelectAirport($(this).parent().find('input'), 0, 'region','main');" title="도착지 선택 레이어 열림">도착지 선택</a>
+										<!--선택 레이어 -->
+										<div class="selected_area end">
+											<a href="#" onclick="gnbSelectAirport($(this).parents().find('input'), 0,'search','main');">
+												<span class="en">ICN</span>
+												<span class="area">서울/인천</span>
+											</a>
+										</div>
+										<!--//선택 레이어 -->
+									</div>
+									<!--//도착지 선택-->
+									<!--날짜 선택-->
+									<div class="days_wrap inquiry">
+										<input class="booking_date1" id="lostFlightDate_1" placeholder="YYYY-MM-DD" readonly="readonly" title="출발일 입력" type="text" value="" onclick="gnbCallBackArrivalAirportConfirm(null, 'main', 'KRW', 'N');" onkeypress="gnbCallBackArrivalAirportConfirm(null, 'main', 'KRW', 'N');">
+										<span class="tilde">~</span>
+										<input class="booking_date2" id="lostFlightDate_2" placeholder="YYYY-MM-DD" readonly="readonly" title="도착일 입력" type="text" value="" onclick="gnbCallBackArrivalAirportConfirm(null, 'main', 'KRW', 'N');" onkeypress="gnbCallBackArrivalAirportConfirm(null, 'main', 'KRW', 'N');">
+										<a class="btn_date focus_date3" href="#none" title="출/도착 날짜 선택 레이어 선택" onclick="gnbCallBackArrivalAirportConfirm(null, 'main', 'KRW', 'N');">출/도착 날짜 선택</a>
+									</div>						
+									<!--//날짜 선택-->
+									<!--인원 선택-->
+									<div class="passenger_wrap inquiry">
+										<input class="passenger" placeholder="탑승객" readonly="readonly" tabindex="-1" title="탑승객" type="text" value="">
+										<!-- 탑승객 레이어 -->
+										<a class="selected_passenger" href="#none" onclick="selectPassengerCount();" onkeypress="selectPassengerCount();" style="cursor:pointer;" title="탑승객 선택"><span>성인 0</span><span>소아 0</span><span>유아 0</span></a>
+										<!--//탑승객 레이어 -->
+									</div>
+									<!--//인원 선택-->
+								</div>
+								<button type="submit" id="btn_search" class="btn_large">조회</button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+				<!--//항공예약바-->
+			</section>
+	        <section class="main_favorite_navbar">
+	        	<!--자주 사용하는 메뉴-->
+	        	<div class="mfnb">
+	        		<h2 class="hidden">자주 사용하는 메뉴/기능</h2>
+	        		<ul class="mfnb_list">
+	        			<li class="mfnb_item">
+	        				<a href="#" class="mfnb_line">
+	        					<img src="img/reserve_icon.png" class="mfnb_icon" alt="예약조회아이콘">예약 조회
+	        				</a> 
+	        			</li>
+	        			<li class="mfnb_item">
+	        				<a href="#" class="mfnb_line">
+	        					<img src="img/ticket_icon.png" class="mfnb_icon" alt="체크인아이콘">체크인
+	        				</a> 
+	        			</li>
+	        			<li class="mfnb_item">
+	        				<a href="#" class="mfnb_line">
+	        					<img src="img/time_icon.png" class="mfnb_icon" alt="항공편현황아이콘">항공편 현황
+	        				</a> 
+	        			</li>
+	        		</ul>
+	        	</div>
+	        	<!--//자주 사용하는 메뉴-->
+	        </section>
+            <section class="main_lowprice">
+            	<!--최저가 여행 메인 타이틀-->
+            	<div class="low_tit_wrap">
+            		<h2 class="main_tit">최저가 여행</h2>
+					<div class="low_depart">
+						<a href="#" class="dep_bus">
+							<span class="">부산</span>
+						</a>
+						<ul>
+							<li>
+								<a href="#" class="dep_bus">
+									<span class="">부산</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="dep_icn">
+									<span class="">인천</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="dep_tae">
+									<span class="">대구</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<a href="#" class="more">더보기</a>
+				</div>
+            	<!--//최저가 여행 메인 타이틀-->
+            	<!--최저가 여행 슬라이드 카드형-->
+            	<div class="goods_slide_wrap">
+            		<h2 class="hidden">슬라이드 카드형</h2>
+					<div class="goods_wrapper">
+						<div class="goods_wrap trav01">
+							<figure>
+								<img src="img/t_guam.jpg" alt="괌">
+								<figcaption>
+									<strong class="bul">편도총액</strong>
+									<span class="start">부산</span>
+									<span class="end">괌</span>
+									<p class="unit">KRW</p>
+								    <p class="price">98,500~</p>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="goods_wrap trav02">
+							<figure>
+								<img src="img/t_cebu.jpg" alt="세부">
+								<figcaption>
+									<strong class="bul">편도총액</strong>
+									<span class="start">부산</span>
+									<span class="end">세부</span>
+									<p class="unit">KRW</p>
+								    <p class="price">108,500~</p>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="goods_wrap trav03">
+							<figure>
+								<img src="img/t_danang.jpg" alt="다낭">
+								<figcaption>
+									<strong class="bul">편도총액</strong>
+									<span class="start">부산</span>
+									<span class="end">다낭</span>
+									<p class="unit">KRW</p>
+								    <p class="price">168,500~</p>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="goods_wrap trav04">
+							<figure>
+								<img src="img/t_fukuoka.jpg" alt="후쿠오카">
+								<figcaption>
+									<strong class="bul">편도총액</strong>
+									<span class="start">부산</span>
+									<span class="end">후쿠오카</span>
+									<p class="unit">KRW</p>
+								    <p class="price">107,200~</p>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="goods_wrap trav05">
+							<figure>
+								<img src="img/t_qingdao.jpg" alt="칭다오">
+								<figcaption>
+									<strong class="bul">편도총액</strong>
+									<span class="start">부산</span>
+									<span class="end">칭다오</span>
+									<p class="unit">KRW</p>
+								    <p class="price">308,200~</p>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="goods_wrap trav06">
+							<figure>
+								<img src="img/t_osaka.jpg" alt="오사카">
+								<figcaption>
+									<strong class="bul">편도총액</strong>
+									<span class="start">부산</span>
+									<span class="end">오사카</span>
+									<p class="unit">KRW</p>
+								    <p class="price">82,200~</p>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+            	</div>
+            	<!--//최저가 여행 슬라이드 카드형-->
+            	<!--최저가 여행 슬라이드 버튼-->
+            	<div class="control_btn">
+					<a href="#" class="left_btn">이전</a>
+					<a href="#" class="right_btn">다음</a>
+					<div class="pagenate">
+						<ul>
+							<li><a href="#" class="active">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+						</ul>
+					</div>
+            	</div> 
+            	<!--//최저가 여행 슬라이드 버튼-->
+            </section>
+            <section class="main_notice">
+            	<!-- 코로나 종합안내 배너-->
+            	<div class="main_bnr_covid">
+            		<a href="#"><img src="img/covid19_banner.jpg" alt="코로나19 종합 안내"></a>
+            	</div>
+            	<!--//코로나 종합안내 배너-->
+            	<div class="main_notice_wrap">
+					<!--공지사항-->
+            		<div class="notice_area">
+						<div class="content_header">
+							<h2 class="main_tit">공지사항</h2>
+							<a href="#" title="공지사항 더보기" class="btn_more">더보기</a>
+						</div>
+						<div class="content_bottom">
+							<table>
+								<tbody>
+									<tr>
+										<td>
+											<a href="#" class="subject">[중요]취항지별 출입국 규정(09/30기준)</a>
+											<p class="date">2022-05-26</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="subject">[일반]10월 신용카드 할부 지원 안내</a>
+											<p class="date">2022-10-01</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="subject">[운임]국내 유류 할증료 안내 (2022년10월)</a>
+											<p class="date">2022-09-16</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+            		</div>
+					<!--//공지사항-->
+					<!--변경운항공지-->
+            		<div class="fly_area">
+						<div class="content_header">
+							<h2 class="main_tit">변경운항공지</h2>
+							<a href="#" title="변경운항공지 더보기" class="btn_more">더보기</a>
+						</div>
+						<div class="content_bottom">
+							<table>
+								<tbody>
+									<tr>
+										<td>
+											<a href="#" class="subject">[국내선]부산-제주노선 비운항 안내 (09/21)</a>
+											<p class="date">2022-09-16</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="subject">[국제선]국제선 운항지연 안내 (09/06)
+												<p class="date">2022-09-06</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="subject">[국내선]국내선 항공편 결항 안내 (09/06)</a>
+											<p class="date">2022-09-05</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+            		</div>
+				</div>
+            </section>
+            <section class="main_coperate">
+				<div class="main_coperate_wrap">
+					<!--부가 서비스-->
+				    <div class="add_service">
+						<h2 class="hidden">부가서비스</h2>
+						<img src="img/namebox_01.png" alt="부가서비스이름이미지">
+						<div class="icon_wrap">
+							<span class="blue_line1"></span>
+							<span class="green_line2"></span>
+							<table>
+								<tbody>
+									<tr>
+										<td>
+											<a href="#" class="gift"><img src="img/j_gift.png" alt="번들아이콘">번들</a>
+											<span class="bg_line"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="luggage"><img src="img/j_luggage.png" alt="수하물아이콘">수하물</a>
+											<span class="bg_line"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="seat"><img src="img/j_seat.png" alt="좌석아이콘">좌석</a>
+											<span class="bg_line"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="lounge"><img src="img/j_lounge.png" alt="라운지아이콘">라운지</a>
+											<span class="bg_line"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="meal"><img src="img/j_dinner.png" alt="기내식아이콘">기내식</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+            	    <!--//부가 서비스-->
+            	    <!--FLY&FUN-->
+					<div class="fly_fun">
+						<div class="fun_text_group">
+							<h2 class="hidden">FLY&amp;FUN</h2>
+						    <img src="img/fly&fun_box02.png" alt="FLY&FUN이름이미지">
+							<div class="f_txtwrap">
+								<a href="#" class="f_txt1">국내 여행</a>
+							    <a href="#" class="f_txt2">해외 여행</a>
+							    <a href="#" class="f_txt3">이벤트</a>
+							</div>
+						</div>
+						<div class="fun_img_wrap">
+							<div class="btn_wrap">
+								<a href="#"><img src="img/btn_prev_s1.png" class="btn_prev_arrow" alt="이전보기버튼"></a>
+							    <a href="#"><img src="img/btn_next_s2.png" class="btn_next_arrow" alt="다음보기버튼"></a>
+							</div>
+							<div class="event_area">
+								<div class="event1_wrap">
+									<div class="more_btn_s">
+										<a href="#"><img src="img/plus_icon_s.png" alt="더보기작은버튼"></a>
+									</div>
+									<div class="event_txt">
+										<p><strong>[전국]시크릿 쿠폰 이벤트</strong></p>
+									</div>
+									<div class="event_img">
+										<img src="img/event01.jpg" alt="시크릿쿠폰">
+									</div>
+								</div>
+								<div class="event2_wrap">
+									<div class="more_btn_s">
+										<a href="#"><img src="img/plus_icon_s.png" alt="더보기작은버튼"></a>
+									</div>
+									<div class="event_txt">
+										<p><strong>[전국]김가네 이벤트</strong></p>
+									</div>
+									<div class="event_img">
+										<img src="img/event02.jpg" alt="김가네이벤트">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+            	    <!--//FLY&FUN-->
+            	    <!--제휴 서비스-->
+					<div class="coper_service">
+						<h2 class="hidden">제휴서비스</h2>
+						<img src="img/namebox_02.png" alt="제휴서비스이름이미지">
+						<div class="icon_wrap">
+							<span class="green_line1"></span>
+							<span class="blue_line2"></span>
+							<table>
+								<tbody>
+									<tr>
+										<td>
+											<a href="#" class="hotel"><img src="img/j_hotel.png" alt="호텔아이콘">호텔</a>
+											<span class="bg_line"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="car"><img src="img/j_car.png" alt="렌터카아이콘">렌터카</a>
+											<span class="bg_line"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="dutyfree"><img src="img/j_duty free.png" alt="기내면세아이콘">기내면세</a>
+											<span class="bg_line"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="wifi"><img src="img/j_wifi.png" alt="와이파이아이콘">와이파이</a>
+											<span class="bg_line"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="insurance"><img src="img/j_insurance.png" alt="여행자보험아이콘">여행자보험</a>
+											<span class="bg_line"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#" class="card"><img src="img/j_card.png" alt="제휴카드아이콘">제휴카드</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+            	<!--//제휴 서비스-->
+            </section>
+            <section class="main_shop">
+            	<!--shop 바로가기-->
+            	<div class="shop_wrap">
+            		<p>항공 마니아를 위한<br>
+            		Air Busan의 특별한 상품<br>
+					지금 바로 만나보세요.</p>
+					<a href="#" class="shop_btn"><img src="img/go_btn.png" alt="shop 바로가기"></a>
+            	</div>
+            	<!--//shop 바로가기-->
+            </section>
+        </main>
+        <footer id="main_footer">
+			<div class="footer_wrap">
+				<!--footer top-->
+				<div class="foot_top">
+					<ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">투자정보</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">운송약관</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일무단수집거부</a></li>
+                        <li><a href="#">인터넷도우미</a></li>
+					</ul>
+					<ul>
+                        <li><a href="#">항공교통이용자서비스계획</a></li>
+                        <li><a href="#">항공교통이용자피해구제신청서</a></li>
+                        <li><a href="#">항공안전투자공시</a></li>
+                    </ul>
+					<div class="sns">
+						<ul>
+							<li><a href="#"><img src="img/sns_insta.jpg" alt="insta icon"></a></li>
+							<li><a href="#"><img src="img/sns_utube.png" alt="youtube icon"></a></li>
+						</ul>
+                    </div>
+                </div>
+				<!--//footer top-->
+				<!--footer btm-->
+        	    <div class="foot_bottom">
+                    <div class="foot_txt">
+						<ul>
+							<li>
+								<span>예약센터</span>
+								<p>1666-3060</p>
+								<p>09:00~19:00(연중무휴)</p>
+							</li>
+							<li>
+								<span>단체문의(10명 이상)</span>
+								<p>1666-6265</p>
+								<p>09:00~17:00(주말,공휴일 제외)</p>
+							</li>
+							<li>
+								<span>마케팅/광고 문의</span>
+								<p>flynfun&#64;airbusan.com</p>
+								<p>제휴,광고 등 다양한 제안을 기다립니다.</p>
+							</li>
+						</ul>
+                    </div>
+                    <div class="add_box">
+						<address>
+							<p>에어부산(주) 대표이사 안병석</p>
+                            <p>통신판매업 신고번호: 제 2021-부산강서구-0203호</p>
+                            <P>주소: 부산광역시 강서구 유통단지1로 57번가길6(대저2동)</P>
+                            <p>우:46721</p>
+                            <p>이메일 문의</p>
+                            <p>사업자등록번호: 605-81-84518 사업자정보확인</p>
+                            <p>Copyright 2022 BY AIR BUSAN GRACE. All rights reserved.</p>
+						</address>
+						    <a href="#"><img src="img/mail_icon.png" alt="mail icon"></a>
+                            <a href="#"><img src="img/edit_icon.png" alt="edit icon"></a>
+						</div>
+                    <div class="info">
+                            <h3>시스템 정기점검 안내</h3>
+                            <p>수~월 23:50~24:10</p>
+                            <p>화요일 23:00~24:00</p>
+                    </div>
+                </div>
+				<!--//footer btm-->
+			</div>
+        </footer>
+    </body>
+</html>
