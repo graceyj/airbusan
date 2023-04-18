@@ -1,26 +1,51 @@
 @import "default.css";
 
 body{
-    font-size:14px; font-family: "Nanum Gothic", Arial, sans-serif;
+    font-size: 14px; font-family: "Nanum Gothic", Arial, sans-serif;
     vertical-align: middle; line-height: 20px; color: #333;
 }
+
 /* ---------------------header------------------------- */
 #main_header{
-    width:100%; height:150px; background:#fff;
+    width: 100%; height: auto; background: #fff;
+}
+#main_header>.head_wrap{ 
+    width: 100%; height: 150px;
+    border-bottom: 3px solid #2A3493;
 }
 #main_header>.head_wrap>.top_head{
-    width:100%; height:30px; background:#2A3493;
+    width: 100%; height: 30px; background: #2A3493;
+    position: relative;
 }
 #main_header>.head_wrap>.top_head>.fam_site{
-    width:150px; height:30px; background:#fff; margin:0 auto;
-    position:relative; 
+    width: 120px; height: 90px; background: #fff; 
+    position: absolute; left: 20%; top: 0;
 }
-#main_header>.head_wrap>.top_head>.fam_site>.fam_sl{
-    width:150px; height:30px; background:#fff;
-    position:absolute; 
+.fam_site> a{
+	display: block; width: 120px; height: 30px; line-height: 30px;
+	text-align: center; font-weight: bold; font-size: 14px;
+	color: #2A3493; background: #fff;
 }
+.fam_site .icon{
+    display: inline-block; margin-left: -10px;
+    width: 12px; height: 7px; z-index: 99999;
+    background-image: url("../img/down_icon.png") no-repeat center center;
+}
+.fam_site>.fam_menu{
+	width:120px; height:60px; 
+    position:absolute; left:0px; top: 30px;
+	display: none;
+}
+.fam_site>.fam_menu a{
+	display:block; width:120px; height:30px; line-height:30px;
+	text-align: center; font-weight: bold; font-size: 14px;
+    color: #fff; background: #015FA9;
+}
+.fam_site:hover>.fam_menu{ display:block; }
 
 /* -------------------//header------------------------- */
+
+/* ---------------------main--------------------------- */
 #main_visual>.main_slide{ 
     width: 100%; height: auto; margin:0 auto;
 }
@@ -62,10 +87,8 @@ body{
     position:absolute; right:5%;
 }
 
-
-/* ---------------------main--------------------------- */
 /* -------------------//main--------------------------- */
 
-
 /* ---------------------footer------------------------- */
+
 /* -------------------//footer------------------------- */
